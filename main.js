@@ -20,6 +20,27 @@ function checkBreakpoint () {
   }
 }
 
+$("#about-button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#about-section").offset().top
+    }, 2000);
+});
+$("#services-button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#services-section").offset().top
+    }, 2000);
+});
+$("#pricing-button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#pricing-section").offset().top
+    }, 2000);
+});
+$("#contact-button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#contact-section").offset().top
+    }, 2000);
+});
+
 $(window).scroll( function(){
 
 

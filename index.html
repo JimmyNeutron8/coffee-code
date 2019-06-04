@@ -14,10 +14,10 @@
       <a class="site-logo" href="#"></a>
       <span class="nav-toggler"><i class="fas fa-bars"></i></span>
       <div class="nav-links">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
+        <a id="about-button" href="#">About</a>
+        <a id="services-button" href="#">Services</a>
+        <a id="pricing-button" href="#">Pricing</a>
+        <a id="contact-button" href="#">Contact</a>
       </div>
     </nav>
 
@@ -27,7 +27,7 @@
       <button class="button-primary" type="" name="button">Get Started</button>
     </header>
 
-    <div class="info-section">
+    <div id="about-section" class="info-section">
       <h2 class="section-title fade">Coffee-to-Code Conversion</h2>
       <p class="fade">Our expert programmers take only the finest, specialty coffees and convert them into powerful, flexible programs on the fly.</p>
       <p class="fade">In other words, we make Java out of... well, actual Java.</p>
@@ -37,7 +37,7 @@
       &nbsp;
     </div>
 
-    <div class="info-section">
+    <div id="services-section" class="info-section">
       <h2 class="section-title">Coffee Roast to Program Speed</h2>
       <h3 class="paragraph-heading fade">Light Roast</h3>
       <p class="fade">The code produced from this lighter, more acidic coffee will run about as fast as a Commodore64 dipped in molasses.</p>
@@ -47,6 +47,41 @@
       <p class="fade">Our favorite roast will produce a much faster cup of coffee, and a rich, full-bodied program.</p>
       <h3 class="paragraph-heading fade">Extra-dark Roast</h3>
       <p class="fade">Give us this coffee, and we'll write the literal Matrix for you.</p>
+    </div>
+
+    <div class="image-section-two">
+      &nbsp;
+    </div>
+
+    <div id="pricing-section" class="graphic-section">
+      <h2 class="section-title">Pricing</h2>
+      <div class="card-grid">
+        <div class="graphic-card">
+          <i class="fas fa-coffee"></i>
+          <h2>Coffee</h2>
+          <p>Give us coffee, and we'll give you code.</p>
+        </div>
+        <div class="graphic-card">
+          <i class="fas fa-money-bill-wave"></i>
+          <h2>$10</h2>
+          <p>Or cut out the middleman and just give us coffee money.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-section">
+      &nbsp;
+    </div>
+
+    <div id="contact-section" class="contact-section">
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form" action="/" method="">
+        <label for="email-input">Email</label>
+        <input id="email-input" type="email" name="email" value="" required>
+        <label for="message-input">Message</label>
+        <textarea id="message-input" name="message" rows="8" cols="80"></textarea>
+        <button class="button-primary" type="" name="button">Send</button>
+      </form>
     </div>
 
     <script
