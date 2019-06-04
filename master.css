@@ -265,3 +265,10 @@ body {
     padding: 0 10px;
   }
 }
+
+@media (max-width: 576px) {
+  .graphic-card {
+    padding: 20px 10px;
+    max-width: 800px;
+  }
+}
